@@ -1,0 +1,7 @@
+image_width: 640
+image_height: 480
+pixel_format: mjpeg
+camera_name: usb_cam
+camera_info_url: ""
+framerate: 30
+io_method: mmap

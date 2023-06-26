@@ -1,0 +1,8 @@
+prefix=/home/elephant/catkin_ws/install
+
+Name: mycobot_moveit
+Description: Description of mycobot_moveit
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp hardware_interface transmission_interface controller_manager

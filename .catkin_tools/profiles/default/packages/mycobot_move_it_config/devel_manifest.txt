@@ -1,0 +1,5 @@
+mycobot_ros/mycobot_move_it_config
+/home/elephant/catkin_ws/devel/.private/mycobot_move_it_config/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mycobot_move_it_config/share/mycobot_move_it_config/cmake/mycobot_move_it_configConfig-version.cmake /home/elephant/catkin_ws/devel/share/mycobot_move_it_config/cmake/mycobot_move_it_configConfig-version.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_move_it_config/share/mycobot_move_it_config/cmake/mycobot_move_it_configConfig.cmake /home/elephant/catkin_ws/devel/share/mycobot_move_it_config/cmake/mycobot_move_it_configConfig.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_move_it_config/lib/pkgconfig/mycobot_move_it_config.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mycobot_move_it_config.pc

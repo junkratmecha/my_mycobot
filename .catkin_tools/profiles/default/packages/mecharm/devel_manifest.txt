@@ -1,0 +1,5 @@
+myCobotROS/mecharm/mecharm
+/home/elephant/catkin_ws/devel/.private/mecharm/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mecharm/share/mecharm/cmake/mecharmConfig.cmake /home/elephant/catkin_ws/devel/share/mecharm/cmake/mecharmConfig.cmake
+/home/elephant/catkin_ws/devel/.private/mecharm/share/mecharm/cmake/mecharmConfig-version.cmake /home/elephant/catkin_ws/devel/share/mecharm/cmake/mecharmConfig-version.cmake
+/home/elephant/catkin_ws/devel/.private/mecharm/lib/pkgconfig/mecharm.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mecharm.pc

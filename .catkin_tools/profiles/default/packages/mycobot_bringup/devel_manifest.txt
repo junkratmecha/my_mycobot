@@ -1,0 +1,5 @@
+mycobot_ros/mycobot_bringup
+/home/elephant/catkin_ws/devel/.private/mycobot_bringup/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mycobot_bringup/share/mycobot_bringup/cmake/mycobot_bringupConfig.cmake /home/elephant/catkin_ws/devel/share/mycobot_bringup/cmake/mycobot_bringupConfig.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_bringup/share/mycobot_bringup/cmake/mycobot_bringupConfig-version.cmake /home/elephant/catkin_ws/devel/share/mycobot_bringup/cmake/mycobot_bringupConfig-version.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_bringup/lib/pkgconfig/mycobot_bringup.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mycobot_bringup.pc

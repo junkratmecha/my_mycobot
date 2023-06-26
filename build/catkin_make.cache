@@ -1,0 +1,2 @@
+my_camera_package:mycobot_moveit:mycobot_ros/mycobot_control:mycobot_ros/mycobot_description:mycobot_ros/mycobot_gazebo:mycobot_ros/mycobot_move_it_config
+-DCATKIN_DEVEL_PREFIX=/home/elephant/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/elephant/catkin_ws/install -G Unix Makefiles

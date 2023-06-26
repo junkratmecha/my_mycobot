@@ -1,0 +1,6 @@
+mycobot_ros/mycobot_real_robot
+/home/elephant/catkin_ws/devel/.private/mycobot_real_robot/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mycobot_real_robot/share/mycobot_real_robot/cmake/mycobot_real_robotConfig.cmake /home/elephant/catkin_ws/devel/share/mycobot_real_robot/cmake/mycobot_real_robotConfig.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_real_robot/share/mycobot_real_robot/cmake/mycobot_real_robotConfig-version.cmake /home/elephant/catkin_ws/devel/share/mycobot_real_robot/cmake/mycobot_real_robotConfig-version.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_real_robot/lib/mycobot_real_robot/mycobot_control /home/elephant/catkin_ws/devel/lib/mycobot_real_robot/mycobot_control
+/home/elephant/catkin_ws/devel/.private/mycobot_real_robot/lib/pkgconfig/mycobot_real_robot.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mycobot_real_robot.pc

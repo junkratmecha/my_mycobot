@@ -1,0 +1,5 @@
+myCobotROS/mecharm/mecharm_pi
+/home/elephant/catkin_ws/devel/.private/mecharm_pi/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mecharm_pi/share/mecharm_pi/cmake/mecharm_piConfig-version.cmake /home/elephant/catkin_ws/devel/share/mecharm_pi/cmake/mecharm_piConfig-version.cmake
+/home/elephant/catkin_ws/devel/.private/mecharm_pi/share/mecharm_pi/cmake/mecharm_piConfig.cmake /home/elephant/catkin_ws/devel/share/mecharm_pi/cmake/mecharm_piConfig.cmake
+/home/elephant/catkin_ws/devel/.private/mecharm_pi/lib/pkgconfig/mecharm_pi.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mecharm_pi.pc

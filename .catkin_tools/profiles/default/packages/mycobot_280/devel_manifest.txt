@@ -1,0 +1,7 @@
+myCobotROS/mycobot_280/mycobot_280
+/home/elephant/catkin_ws/devel/.private/mycobot_280/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mycobot_280/share/mycobot_280/cmake/mycobot_280Config-version.cmake /home/elephant/catkin_ws/devel/share/mycobot_280/cmake/mycobot_280Config-version.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_280/share/mycobot_280/cmake/mycobot_280Config.cmake /home/elephant/catkin_ws/devel/share/mycobot_280/cmake/mycobot_280Config.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_280/lib/mycobot_280/camera_display /home/elephant/catkin_ws/devel/lib/mycobot_280/camera_display
+/home/elephant/catkin_ws/devel/.private/mycobot_280/lib/mycobot_280/opencv_camera /home/elephant/catkin_ws/devel/lib/mycobot_280/opencv_camera
+/home/elephant/catkin_ws/devel/.private/mycobot_280/lib/pkgconfig/mycobot_280.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mycobot_280.pc

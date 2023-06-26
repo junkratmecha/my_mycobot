@@ -1,0 +1,5 @@
+mycobot_ros/mycobot_ros
+/home/elephant/catkin_ws/devel/.private/mycobot_ros/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mycobot_ros/share/mycobot_ros/cmake/mycobot_rosConfig.cmake /home/elephant/catkin_ws/devel/share/mycobot_ros/cmake/mycobot_rosConfig.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_ros/share/mycobot_ros/cmake/mycobot_rosConfig-version.cmake /home/elephant/catkin_ws/devel/share/mycobot_ros/cmake/mycobot_rosConfig-version.cmake
+/home/elephant/catkin_ws/devel/.private/mycobot_ros/lib/pkgconfig/mycobot_ros.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mycobot_ros.pc

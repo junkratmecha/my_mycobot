@@ -1,0 +1,5 @@
+myCobotROS/Mybuddy/mybuddy
+/home/elephant/catkin_ws/devel/.private/mybuddy/cmake.lock /home/elephant/catkin_ws/devel/./cmake.lock
+/home/elephant/catkin_ws/devel/.private/mybuddy/share/mybuddy/cmake/mybuddyConfig-version.cmake /home/elephant/catkin_ws/devel/share/mybuddy/cmake/mybuddyConfig-version.cmake
+/home/elephant/catkin_ws/devel/.private/mybuddy/share/mybuddy/cmake/mybuddyConfig.cmake /home/elephant/catkin_ws/devel/share/mybuddy/cmake/mybuddyConfig.cmake
+/home/elephant/catkin_ws/devel/.private/mybuddy/lib/pkgconfig/mybuddy.pc /home/elephant/catkin_ws/devel/lib/pkgconfig/mybuddy.pc

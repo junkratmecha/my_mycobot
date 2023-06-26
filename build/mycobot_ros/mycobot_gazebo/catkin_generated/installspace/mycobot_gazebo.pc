@@ -1,0 +1,8 @@
+prefix=/home/elephant/catkin_ws/install
+
+Name: mycobot_gazebo
+Description: Description of mycobot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
