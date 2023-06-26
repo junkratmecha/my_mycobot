@@ -1,3 +1,5 @@
+## 接続
+
 ssh -Y elephant@192.168.0.7
 
 For ($i=1; $i -le 24; $i++) {
@@ -6,9 +8,13 @@ For ($i=1; $i -le 24; $i++) {
     ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no -Y elephant@$ip
 }
 
-/catkin_ws/work
-python3 test2.py
+## 簡易テストby mycobot
 
+/catkin_ws/work
+python3 /home/elephant/catkin_ws/work/test.py
+python3 /home/elephant/catkin_ws/work/test2.py
+
+## 初期設定? 覚えてない
 
 https://note.com/npaka/n/n600b473e34f4
 docker images
@@ -17,7 +23,7 @@ docker image prune -a
 PI_PORT ="/dev/ttyTHS1"
 #PI_PORT ="/dev/ttyTHS2"
 
-
+## 手順
 
 ros立ち上げ
 roscore
@@ -27,14 +33,8 @@ roslaunch mycobot_moveit mycobot_moveit_control.launch
 
 
 
-リモートでrvizを見る方法
-
-VNCサーバー
-apt install tigervnc-standalone-server tigervnc-xorg-extension　ローカル
-リモートはhttps://tigervnc.org/からダウンロード
-
-
-初期設定
+## ローカル初期設定 fro remote rviZ
+apt install tigervnc-standalone-server tigervnc-xorg-extension
 chmod +x ~/.vnc/xstartup
 vi ~/.vnc/config
     -listen tcp
@@ -45,50 +45,28 @@ vi ~/.vnc/xstartup
     unset DBUS_SESSION_BUS_ADDRESS
     startxfce4 &
 
+
+## リモートコマンド for remote rviz
+https://tigervnc.org/からダウンロード
 vncサーバー立ち上げ
 echo $DISPLAY
 export DISPLAY=:1
 vncserver -kill :1
 vncserver -localhost no
 netstat -tulpn | grep Xtigervnc
+やっと接続可能。
 192.168.0.14:5901
 
-
-カメラ必要パッケージ
- apt install tigervnc-standalone-server tigervnc-xorg-extension
- apt-get install ros-me-cv-bridge
-
- catkin_create_pkg mycobot_camera rospy usb_cam
-
-
-config/ launch nodes
-~/catkin_ws/src/my_camera_package/config/
-usb_cam.yaml
-    image_width: 640
-    image_height: 480
-    pixel_format: mjpeg
-    camera_name: usb_cam
-    camera_info_url: ""
-    framerate: 30
-    io_method: mmap
-
-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
-
-
-カメラ調整
+## カメラ調整
 /camera/image_raw
 ls -l /dev/video*
 groups $USER
 v4l2-ctl --list-formats-ext --device /dev/video0
 gst-launch-1.0 v4l2src device=/dev/video0 ! 'image/jpeg,width=640,height=480,framerate=30/1' ! jpegdec ! videoconvert ! autovideosink
-
 roslaunch mycobot_moveit mycobot_moveit_camera.launch
 
-yolox
-export PYTHONPATH=$PYTHONPATH:/home/elephant/catkin_ws/src/my_camera_package/YOLOX
 
-戻し方
-python3 /home/elephant/catkin_ws/work/test2.py
+
 
 
 リンク
