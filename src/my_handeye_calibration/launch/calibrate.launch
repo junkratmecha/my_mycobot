@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find my_handeye_calibration)/config/calibration_settings.yaml" />
+    <node name="easy_handeye_calibrate" pkg="easy_handeye" type="calibrate.py" />
+</launch>

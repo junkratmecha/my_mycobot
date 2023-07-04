@@ -311,6 +311,21 @@ cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
 
+//Value Computed by CMake
+easy_handeye_BINARY_DIR:STATIC=/home/elephant/catkin_ws/build/easy_handeye/easy_handeye
+
+//The directory containing a CMake configuration file for easy_handeye.
+easy_handeye_DIR:PATH=/home/elephant/catkin_ws/devel/share/easy_handeye/cmake
+
+//Value Computed by CMake
+easy_handeye_SOURCE_DIR:STATIC=/home/elephant/catkin_ws/src/easy_handeye/easy_handeye
+
+//Value Computed by CMake
+easy_handeye_msgs_BINARY_DIR:STATIC=/home/elephant/catkin_ws/build/easy_handeye/easy_handeye_msgs
+
+//Value Computed by CMake
+easy_handeye_msgs_SOURCE_DIR:STATIC=/home/elephant/catkin_ws/src/easy_handeye/easy_handeye_msgs
+
 //The directory containing a CMake configuration file for eigen_stl_containers.
 eigen_stl_containers_DIR:PATH=/opt/ros/melodic/share/eigen_stl_containers/cmake
 
@@ -442,6 +457,12 @@ my_camera_package_BINARY_DIR:STATIC=/home/elephant/catkin_ws/build/my_camera_pac
 my_camera_package_SOURCE_DIR:STATIC=/home/elephant/catkin_ws/src/my_camera_package
 
 //Value Computed by CMake
+my_handeye_calibration_BINARY_DIR:STATIC=/home/elephant/catkin_ws/build/my_handeye_calibration
+
+//Value Computed by CMake
+my_handeye_calibration_SOURCE_DIR:STATIC=/home/elephant/catkin_ws/src/my_handeye_calibration
+
+//Value Computed by CMake
 mycobot_control_BINARY_DIR:STATIC=/home/elephant/catkin_ws/build/mycobot_ros/mycobot_control
 
 //Value Computed by CMake
@@ -515,6 +536,12 @@ rospy_DIR:PATH=/opt/ros/melodic/share/rospy/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
+
+//Value Computed by CMake
+rqt_easy_handeye_BINARY_DIR:STATIC=/home/elephant/catkin_ws/build/easy_handeye/rqt_easy_handeye
+
+//Value Computed by CMake
+rqt_easy_handeye_SOURCE_DIR:STATIC=/home/elephant/catkin_ws/src/easy_handeye/rqt_easy_handeye
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/melodic/share/sensor_msgs/cmake
@@ -683,7 +710,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

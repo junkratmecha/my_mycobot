@@ -36,7 +36,7 @@ while num > 0:
  num -= 1
 # Let the robot arm shrink. You can swing the robot arm manually and then use the get_
 # Use this function to get the robot arm to where you want it to be.
-mc.send_angles([88.68, -138.51, 155.65, -128.05, -9.93, -15.29], 50)
+# mc.send_angles([88.68, -138.51, 155.65, -128.05, -9.93, -15.29], 50)
 # Set the wait time to ensure that the robot arm has reached to the specified position
 time.sleep(2.5)
 # Release the robot arm, let

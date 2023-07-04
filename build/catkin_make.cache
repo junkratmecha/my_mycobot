@@ -1,2 +1,2 @@
-my_camera_package:mycobot_moveit:mycobot_ros/mycobot_control:mycobot_ros/mycobot_description:mycobot_ros/mycobot_gazebo:mycobot_ros/mycobot_move_it_config
+easy_handeye/easy_handeye:easy_handeye/easy_handeye_msgs:easy_handeye/rqt_easy_handeye:my_camera_package:my_handeye_calibration:mycobot_moveit:mycobot_ros/mycobot_control:mycobot_ros/mycobot_description:mycobot_ros/mycobot_gazebo:mycobot_ros/mycobot_move_it_config
 -DCATKIN_DEVEL_PREFIX=/home/elephant/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/elephant/catkin_ws/install -G Unix Makefiles
