@@ -31,7 +31,7 @@ roscore
 export DISPLAY=:1
 xterm
 (カメラ発信)
-rosrun usb_cam usb_cam_node _camera_info_url:=file:///home/elephant/catkin_ws/src/calibration/usb_cam.yaml _video_device:="/dev/video1" _pixel_format:="yuyv"
+rosrun usb_cam usb_cam_node _camera_info_url:=file:///home/elephant/catkin_ws/src/calibration/usb_cam.yaml _video_device:="/dev/video0" _pixel_format:="yuyv"
 (カメラ受け取り)
 rosrun image_view image_view image:=/usb_cam/image_raw
 
@@ -50,3 +50,5 @@ roslaunch my_handeye_calibration calibrate.launch
 export DISPLAY=:1
 rviz
 roslaunch my_handeye_calibration artrack.launch
+rosrun my_handeye_calibration ar_tlanslate.py
+rostopic echo /ar_pose_marker

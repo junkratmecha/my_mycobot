@@ -5,8 +5,8 @@ tracking_marker_name: ar_marker_id
 robot_base_frame: robot_base_link
 robot_effector_frame: robot_tool_link
 eye_on_hand: false
-camera_matrix: [601.2411623698185, 0, 346.1796047033233, 0, 601.6412380697012, 248.3704510908645, 0, 0, 1]
-camera_distortion: [0.02008259616344503, 0.02537830048197813, 0.006321790481821545, 0.01333964806731871, 0]
+camera_matrix: [Fx, 0, Cx, 0, Fy, Cy, 0, 0, 1]
+camera_distortion: [k1, k2, p1, p2, k3]
 tracking_base_frame: camera_link
 tracking_marker_frame: ar_marker_frame
 freehand_robot_movement: false
